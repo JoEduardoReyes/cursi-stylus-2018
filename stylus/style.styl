@@ -1,4 +1,9 @@
+font-size-normal = 16px
+font-size-small = 14px
+font-size-paragraph = font-size-normal
+
 .psuedo-element
+  font-size font-size-normal
   width 300px
   &:before
     content "hola"
@@ -13,6 +18,7 @@ body, .redtext
   text-decoration underline
   .primerhijo
     margin-bottom 24px
+    font-size font-size-small
 
 .btn
   background-color pink
@@ -20,3 +26,5 @@ body, .redtext
   & &--alert
     background-color red
 
+p
+  font-size font-size-paragraph
