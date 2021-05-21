@@ -1,28 +1,20 @@
+// utilities
 @import 'utilities/_variables.styl'
-
-.psuedo-element
-  font-size font-size-normal
-  width 300px
-  &:before
-    content "hola"
-  .ie-8 &
-    &:before
-      content "chao"
-    img
-      margin-bottom 0
-
-body, .redtext
-  color red
-  text-decoration underline
-  .primerhijo
-    margin-bottom 24px
-    font-size font-size-small
-
-.btn
-  background-color pink
-  border-radius 2px
-  & &--alert
-    background-color red
-
-p
-  font-size font-size-paragraph
+@import 'utilities/_mixins.styl'
+@import 'utilities/_functions.styl'
+// layout
+@import 'layout/_site.styl'
+@import 'layout/_blocks.styl'
+@import 'layout/_header.styl'
+@import 'layout/_navigation.styl'
+@import 'layout/_sidebar.styl'
+@import 'layout/_forms.styl'
+@import 'layout/_grid.styl'
+@import 'layout/_footer.styl'
+// base
+@import 'base/_reset.styl'
+@import 'base/_typography.styl'
+// components
+@import 'components/_buttons.styl'
+@import 'components/_carousel.styl'
+@import 'components/_slider.styl'
