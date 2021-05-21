@@ -101,7 +101,7 @@ body {
   color: #fff;
   border-color: #808080;
 }
-.btn .btn--disable.:visited {
+.btn .btn--disable:visited {
   background-color: #808080;
   color: #808080;
 }
