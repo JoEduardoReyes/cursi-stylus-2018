@@ -1,5 +1,28 @@
-body {
+.psuedo-element {
+  width: 300px;
+}
+.psuedo-element:before {
+  content: "hola";
+}
+.ie-8 .psuedo-element:before {
+  content: "chao";
+}
+.ie-8 .psuedo-element img {
+  margin-bottom: 0;
+}
+body,
+.redtext {
   color: #f00;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.6rem;
+  text-decoration: underline;
+}
+body .primerhijo,
+.redtext .primerhijo {
+  margin-bottom: 24px;
+}
+.btn {
+  background-color: #ffc0cb;
+  border-radius: 2px;
+}
+.btn .btn--alert {
+  background-color: #f00;
 }

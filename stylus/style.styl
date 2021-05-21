@@ -1,4 +1,22 @@
-body
+.psuedo-element
+  width 300px
+  &:before
+    content "hola"
+  .ie-8 &
+    &:before
+      content "chao"
+    img
+      margin-bottom 0
+
+body, .redtext
   color red
-  font-family Arial, Helvetica, sans-serif
-  font-size 1.6rem
+  text-decoration underline
+  .primerhijo
+    margin-bottom 24px
+
+.btn
+  background-color pink
+  border-radius 2px
+  & &--alert
+    background-color red
+
