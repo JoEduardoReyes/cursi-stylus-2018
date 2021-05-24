@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+page-max-width = 1024px
+
+mixin-max-width(width = page-max-width)
+  max-width width
+  margin-left auto
+  margin-right auto
+
+mixin-padding-small(a)
+  a - padding
+
+.container
+  mixin-max-width(800px)
+
+.section
+  mixin-max-width(90%)
+  margin-bottom 24px
+
+.section-landing
+  mixin-max-width()
