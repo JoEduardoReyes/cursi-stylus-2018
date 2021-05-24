@@ -1,5 +1,10 @@
-box(x, y, margin-only = true)
-  if margin-only
-    margin x y
+tone(dark = true)
+  if dark
+    color white
+    background-color black
   else
-    padding x y
+    color black
+    background-color white
+
+.div
+  tone(false)
