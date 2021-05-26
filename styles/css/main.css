@@ -1,0 +1,51 @@
+.bandera .bandera--es {
+  background-image: url("bandera.jpg");
+  background-position-x: 0px;
+  height: 10px;
+  width: 10px;
+}
+.bandera .bandera--us {
+  background-image: url("bandera.jpg");
+  background-position-x: 10px;
+  height: 10px;
+  width: 10px;
+}
+.bandera .bandera--gt {
+  background-image: url("bandera.jpg");
+  background-position-x: 20px;
+  height: 10px;
+  width: 10px;
+}
+.bandera .bandera--mx {
+  background-image: url("bandera.jpg");
+  background-position-x: 30px;
+  height: 10px;
+  width: 10px;
+}
+.nota-0:after {
+  content: " 0 ";
+}
+.nota-1:after {
+  content: " 1 ";
+}
+.nota-2:after {
+  content: " 2 ";
+}
+.nota-3:after {
+  content: " 3 ";
+}
+.nota-4:after {
+  content: " 4 ";
+}
+.nota-5:after {
+  content: " 5 ";
+}
+.nota-6:after {
+  content: " 6 ";
+}
+.nota-7:after {
+  content: " 7 ";
+}
+.nota-8:after {
+  content: " 8 ";
+}

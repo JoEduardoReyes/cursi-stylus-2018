@@ -1,0 +1,17 @@
+banderas = es, us, gt, mx
+
+.bandera
+  for bandera, i in banderas
+    & &--{bandera}
+      background-image url('bandera.jpg')
+      background-position-x 0 + (10 * i)px
+      height 10px
+      width 10px
+
+alumnos= (0..8)
+for i in alumnos    
+     .nota-{i}
+     .nota-{i}        
+          &:after
+          &:after            
+               content: \"i\"
